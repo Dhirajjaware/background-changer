@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  color: white;
+}
+body {
+  background-color: #041122;
+}
+#app {
+  text-align: center;
+}
+form {
+  padding: 1rem;
+}
+form label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+.btn__set-background {
+  background-color: #865DFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    #app{
+        position: relative;
+        top: 12rem;
+    }
+    .btn__set-background{
+        font-size: 1.9rem;
+    }
+    form label{
+        font-size: 2rem;
+    }
+}
